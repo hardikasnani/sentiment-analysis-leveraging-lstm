@@ -12,6 +12,8 @@ data and learning long-term dependencies, it is used for automatic sentiment cla
 
 ![](https://github.com/hardikasnani/sentiment-analysis-leveraging-lstm/blob/main/screenshot/people-sentiment.png)
 
+`NOTE`: The image above is generated through [DALL·E preview app](https://labs.openai.com).
+
 ## Table of Contents
 
 - [Highlights](#Highlights)
@@ -58,13 +60,14 @@ publicly available on [Kaggle](https://www.kaggle.com/datasets/datafiniti/consum
 
 In this dataset, the column reviews.rating has values ranging from 1 to 5. These values will be updated so that each of
 them corresponds to a sentiment. Values 1 and 2 will be treated as a negative sentiment, value 3 will be treated as a
-neutral sentiment, and values 4 and 5 will be treated as a positive sentiment.
+neutral sentiment, and values 4 and 5 will be treated as a positive sentiment. Additionally, the column reviews.text
+holds the reviews.
 
 ## Approach
 
 Exploratory Dataset Analysis is done for the above-mentioned dataset. The text column is cleaned and the data
-is then split into training, testing, and validation sets. This data is then tokenized and padded followed by preparing
-the word embedding that helps in setting up the embedding layer for the sentiment model. Evaluation Metric is finalized
+is then split into training, testing, and validation sets. Further, the data is tokenized and padded followed by preparing
+the word embeddings that helps in setting up the embedding layer for the sentiment model. Evaluation Metric is finalized
 and different settings are explored to build the sentiment model. Apart from the initial model that is trained and
 evaluated using the imbalanced data, two other models are built. One of the models is trained using class weights and
 the other model is trained using synthetically oversampled data. Finally, the results are compared for different models
@@ -73,7 +76,7 @@ trained and evaluated under the best setting.
 ## Information About Files
 
 - `dataset/1429_1.csv`: Dataset of 34,660 consumer reviews for Amazon products
-- `dataset/additional_dataset.txt`: Provides links to additional Dataset of 5,000 + 28,000 consumer reviews for Amazon
+- `dataset/additional_dataset.txt`: Provides links to additional dataset of 5,000 + 28,000 consumer reviews for Amazon
 - `screenshot/people-sentiment.png`: Screenshot of the people with negative, neutral, and positive facial expressions
 - `screenshot/sentiment-distribution.png`: Screenshot of the imbalanced dataset
 - `sentiment-analysis-lstm.ipynb`: Google Colab notebook for the project
