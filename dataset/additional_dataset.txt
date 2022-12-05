@@ -1,0 +1,4 @@
+Additional csv files cannot be added here because they are larger than GitHub's recommended maximum file size of 50.00 MB.
+However, then can be accessed using the following links:
+1. https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products?select=Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products.csv
+2. https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products?select=Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv
