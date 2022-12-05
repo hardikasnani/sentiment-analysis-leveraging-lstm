@@ -1,7 +1,5 @@
 # sentiment-analysis-leveraging-lstm
 
-# Sentiment Analysis of Product Reviews leveraging LSTM Network
-
 `Sentiment Analysis` is determining whether a written piece of text has a `positive`, `neutral`, or `negative`
 connotation. These written pieces of text are usually the reviews that are left by customers once they use products,
 brands, services, and so forth. These reviews give an insight into how appealing or off-putting a particular product,
@@ -19,8 +17,7 @@ data and learning long-term dependencies, it is used for automatic sentiment cla
 - [Highlights](#Highlights)
 - [Dataset](#Dataset)
 - [Approach](#Approach)
-- [Screenshot](#Screenshot)
-- [Information About Folders and Files](#Information-About-Folders-and-Files)
+- [Information About Files](#Information-About-Files)
 - [License](#License)
 - [References](#References)
   - [Papers](#Papers)
@@ -73,7 +70,7 @@ evaluated using the imbalanced data, two other models are built. One of the mode
 the other model is trained using synthetically oversampled data. Finally, the results are compared for different models
 trained and evaluated under the best setting.
 
-## Information About Folders and Files
+## Information About Files
 
 - `dataset/1429_1.csv`: Dataset of 34,660 consumer reviews for Amazon products
 - `dataset/additional_dataset.txt`: Provides links to additional Dataset of 5,000 + 28,000 consumer reviews for Amazon
@@ -122,5 +119,5 @@ Did you find this project useful? Which other setting do you think can be explor
 in this data be handled? Feel free to discuss your experiences on the [discussion portal](https://github.com/hardikasnani/sentiment-analysis-leveraging-lstm/discussions),
 and I'll be more than happy to discuss.
 
-[Back to Top](#Table-of-Contents)
+[Back to Top](#sentiment-analysis-leveraging-lstm)
 
