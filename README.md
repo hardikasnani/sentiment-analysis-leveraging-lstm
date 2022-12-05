@@ -6,7 +6,7 @@ brands, services, and so forth. These reviews give an insight into how appealing
 brand, or service was to the customer. These `insights` are extremely useful because they are not only an indicator of
 `customer satisfaction` but also companies can use them to `drive business decisions`.
 
-Three different sentiment analysis model are built leveraging a `deep learning` approach that will utilize the `customer
+Sentiment analysis models are built leveraging a `deep learning` approach utilizing the `customer
 reviews` of `Amazon products`. Since `Long Short Term Memory Network` (LSTM) is very effective in dealing with long sequence
 data and learning long-term dependencies, it is used for automatic sentiment classification of future product reviews.
 
