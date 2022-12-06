@@ -79,6 +79,7 @@ trained and evaluated under the best setting.
 - `dataset/additional_dataset.txt`: Provides links to additional dataset of 5,000 + 28,000 consumer reviews for Amazon
 - `screenshot/people-sentiment.png`: Screenshot of the people with negative, neutral, and positive facial expressions
 - `screenshot/sentiment-distribution.png`: Screenshot of the imbalanced dataset
+- `screenshot/results.png`: Screenshot of a few results
 - `sentiment-analysis-lstm.ipynb`: Google Colab notebook for the project
 
 ## License
